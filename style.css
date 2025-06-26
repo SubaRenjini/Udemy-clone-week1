@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #000;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo span:first-child {
+  color: purple;
+  font-size: 24px;
+}
+
+.cat {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.nav input {
+  flex-grow: 1;
+  margin: 0 20px;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 400px;
+}
+
+.nav-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.icons {
+  font-size: 18px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.categories button {
+  background-color: #d6afff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* === Hero Section with Text Box === */
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-text-box {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: black;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  max-width: 400px;
+}
+
+.recommended {
+  padding: 30px 20px;
+}
+
+.recommended h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
