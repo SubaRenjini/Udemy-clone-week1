@@ -30,4 +30,4 @@ CSS3 – styling and layout positioning
 ├── style.css        # CSS styling file
 └── README.md        # Project description and status
 
-Live link :
+Live link : https://subarenjini.github.io/Udemy-clone-week1/
